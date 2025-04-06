@@ -7,17 +7,21 @@
 
 
 
+<br>
+<br>
+<br>
 
 
-
-**<h5>Question 1.5.1: What does the mmap() function do?</h5>** 
+**<h3>Question 1.5.1: What does the mmap() function do?</h3>** 
 
 \-  The mmap() is a system call function that allows mapping files or devices into memory. This enables users to access the contents of a file as if it were part of the program's memory space, facilitating more efficient input/output operations.
 
 
+<br>
+<br>
+<br>
 
-
-**Question 1.5.2: What happens during a context switch? Do we want the OS to perform many or few context switches? Explain**
+**<h3>Question 1.5.2: What happens during a context switch? Do we want the OS to perform many or few context switches? Explain</h3>**
 
 \-  A context switch is the process by which an OS saves the state of a currently running process or thread so that it can restore that state later when the process or thread is scheduled to run again. It's like a brief pause in a conversation when one person stops talking and another takes their place.
 
@@ -37,10 +41,12 @@ Execution: Finally, the OS allows the new task to start running on the CPU.
 
 Based on frequency of context switches, it depends on the system's workload and goals what should we perform. In many cases fewer context switches are preferred. We want to avoid too many context swithces because switching takes time and resources. If OS is busy (switching betweeen tasks), it can slow everything. So basically few switches mean the computer can focus on one goal and work efficiently. In situations where systems requiring fair resource distribution, more context switches is desirable. This allows multiple tasks to have their turn and ensures everyone gets a chance to do their work.
 
+<br>
+<br>
+<br>
 
 
-
-**Question 1.5.3: What is the output of the following code snippet? You are given that the exec system call in the child does not succeed.**
+**<h3>Question 1.5.3: What is the output of the following code snippet? You are given that the exec system call in the child does not succeed.</h3>**
 
 Since exec() fails here "exec(some\_binary\_that\_does\_not\_exec);"  the "printf("child\n");" line does execute.
 
@@ -51,29 +57,44 @@ The order is the child prints "child" first then the parent after wait(), prints
 child
 parent
 
+<br>
+<br>
+<br>
 
-**Outline what we did in assingment:**
+**<h2>Outline what we did in assingment:</h3>**
+<br>
+<br>
+<br>
 
-
-**Task 1.1 – Shell Interface**
+**<h4>Task 1.1 – Shell Interface</h4>**
 We implemented a basic shell that continuously prompts the user for input and executes commands. It was designed to be stable and handle invalid input gracefully. We also added an advanced prompt format that displays the machine name and username dynamically, replicating the look and feel of a real Linux terminal.
 
+<br>
+<br>
+<br>
 
-
-**Task 1.2 – Shell Commands**
+**<h4>Task 1.2 – Shell Commands</h4>**
 We created basic versions of common commands such as rm, cat, clear, and cowsay. At least two of these support command-line arguments or options. Additionally, we added support for output redirection to a text file and introduced a few creative features to make the behavior slightly different from the standard bash implementation.
 
+<br>
+<br>
+<br>
 
-**Task 1.3 – System Calls**
+**<h4>Task 1.3 – System Calls</h4>**
 In C, we demonstrated how to use key system calls including fork(), wait(), and exec() for process creation and management. We also implemented kill() and execv() in separate examples. For the advanced part, we explored and carefully implemented a forkbomb to understand how the system handles extreme process creation.
 
+<br>
+<br>
+<br>
 
-**Task 1.4 – Shell Styling and Naming**
+**<h4>Task 1.4 – Shell Styling and Naming</h4>**
 We styled the shell interface using color to enhance readability and user experience. We also gave our shell a custom name to personalize it and make it stand out.
 
+<br>
+<br>
+<br>
 
-
-**Instructions for compiling scripts:** 
+<h3>**Instructions for compiling scripts:** </h3>
 
 
 This project was developed using the Nano editor and compiled with the GCC compiler on an Ubuntu virtual machine. To get the shell up and running, we simply compiled the C file using GCC, which created an executable version of our shell. After that, we were able to launch it from the terminal. In cases where permission was needed, we made the file executable so it could run smoothly like any other command-line tool.
@@ -82,7 +103,7 @@ This project was developed using the Nano editor and compiled with the GCC compi
 Sources/tutorials we used to complete task:
 We mostly used source from lab work to build the core of the shell, focusing on system calls, shell creation, process management, and topics like limited direct execution, CPU scheduling, and MLFQ. For more advanced aspects of the script, we turned to YouTube tutorials for additional guidance. Tutorials helped us to better understand and implement the more     complex features that went beyond the sources covered in the lectures.   Combining the lab work with yotube tutorials allowed us to create a fully   functional and efficient shell.
 
-**Project Challenges:**
+<h3>**Project Challenges:**</h3>
 
 One of the biggest challenges we faced during this project was getting used to how different this Operating Systems course was compared to the other programming classes we’ve taken. Most of our past experience was with higher-level languages and more abstracted environments, but this course really made us dive into how things work at the system level — like process management, system calls, file descriptors, and forking.
 
