@@ -1,17 +1,16 @@
-# custom-shell
+# custom-shell-os-project
 
-**<h1>Operating Systems – Shell Project</h1>**
 
-**<h2>Project members:** Alexander Jaison Kaiser, Milan Milunović</h2>
+**<h3>Project members:** Alexander Jaison Kaiser, Milan Milunović</h3>
 
-**<h3>Listing files:** out.txt, test.txt, shell.c, shell.h, README.md, shell</h3>
-
+**<h5>Listing files:** out.txt, test.txt, shell.c, shell.h, README.md, shell</h5>
 
 
 
 
 
-**Question 1.5.1: What does the mmap() function do?** 
+
+**<h5>Question 1.5.1: What does the mmap() function do?</h5>** 
 
 \-  The mmap() is a system call function that allows mapping files or devices into memory. This enables users to access the contents of a file as if it were part of the program's memory space, facilitating more efficient input/output operations.
 
