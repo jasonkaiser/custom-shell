@@ -94,7 +94,7 @@ We styled the shell interface using color to enhance readability and user experi
 <br>
 <br>
 
-<h3>**Instructions for compiling scripts:** </h3>
+**<h3>Instructions for compiling scripts:</h3>**
 
 
 This project was developed using the Nano editor and compiled with the GCC compiler on an Ubuntu virtual machine. To get the shell up and running, we simply compiled the C file using GCC, which created an executable version of our shell. After that, we were able to launch it from the terminal. In cases where permission was needed, we made the file executable so it could run smoothly like any other command-line tool.
@@ -103,7 +103,7 @@ This project was developed using the Nano editor and compiled with the GCC compi
 Sources/tutorials we used to complete task:
 We mostly used source from lab work to build the core of the shell, focusing on system calls, shell creation, process management, and topics like limited direct execution, CPU scheduling, and MLFQ. For more advanced aspects of the script, we turned to YouTube tutorials for additional guidance. Tutorials helped us to better understand and implement the more     complex features that went beyond the sources covered in the lectures.   Combining the lab work with yotube tutorials allowed us to create a fully   functional and efficient shell.
 
-<h3>**Project Challenges:**</h3>
+**<h3>Project Challenges:</h3>**
 
 One of the biggest challenges we faced during this project was getting used to how different this Operating Systems course was compared to the other programming classes we’ve taken. Most of our past experience was with higher-level languages and more abstracted environments, but this course really made us dive into how things work at the system level — like process management, system calls, file descriptors, and forking.
 
