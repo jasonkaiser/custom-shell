@@ -1,10 +1,10 @@
 # custom-shell
 
-**Operating Systems – Shell Project**
+**<h1>Operating Systems – Shell Project</h1>**
 
-**Project members:** Alexander Jaison Kaiser, Milan Milunović
+**<h2>Project members:** Alexander Jaison Kaiser, Milan Milunović</h2>
 
-**Listing files:** out.txt, test.txt, shell.c, shell.h, README.md, shell
+**<h3>Listing files:** out.txt, test.txt, shell.c, shell.h, README.md, shell</h3>
 
 
 
