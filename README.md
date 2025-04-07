@@ -1,7 +1,7 @@
 # custom-shell-os-project
 
 
-**<h3>Project members:** Alexander Jaison Kaiser, Milan Milunović</h3>
+**<h3>Project members:** Alexander Jason Kaiser, Milan Milunović</h3>
 
 **<h5>Listing files:** out.txt, test.txt, shell.c, shell.h, README.md, shell</h5>
 
